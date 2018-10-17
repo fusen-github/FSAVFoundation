@@ -7,8 +7,16 @@
 //
 
 #import "FSMainViewController.h"
+#import <AVKit/AVKit.h>
 
-@interface FSMainViewController ()
+
+static NSString * const kTitleKey = @"title";
+
+static NSString * const kControllerKey = @"controller";
+
+@interface FSMainViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic, strong) NSArray *dataArray;
 
 @end
 
@@ -16,22 +24,70 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    UITableView *tableView = [[UITableView alloc] init];
+    
+    tableView.dataSource = self;
+    
+    tableView.delegate = self;
+    
+    tableView.frame = self.view.bounds;
+    
+    tableView.cellLayoutMarginsFollowReadableWidth = NO;
+    
+    [self.view addSubview:tableView];
+    
+    self.dataArray = @[@{kTitleKey:@"demo01",kControllerKey:@"FSController01"},];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.dataArray.count;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        
+        cell.textLabel.textColor = [UIColor darkTextColor];
+        
+        cell.textLabel.font = [UIFont systemFontOfSize:14];
+    }
+    
+    NSDictionary *dict = [self.dataArray objectAtIndex:indexPath.row];
+    
+    NSString *title = [dict objectForKey:kTitleKey];
+    
+    cell.textLabel.text = title;
+    
+    return cell;
 }
-*/
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSDictionary *dict = [self.dataArray objectAtIndex:indexPath.row];
+    
+    NSString *className = [dict objectForKey:kControllerKey];
+    
+    Class cls = NSClassFromString(className);
+    
+    id vc = [[cls alloc] init];
+    
+    if (![vc isKindOfClass:[FSBaseViewController class]])
+    {
+        return;
+    }
+    
+    NSString *title = [dict objectForKey:kTitleKey];
+    
+    [vc setTitle:title];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 @end

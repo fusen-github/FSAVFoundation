@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046BC60E2177142E00C8D84A /* FSController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC60D2177142E00C8D84A /* FSController01.m */; };
+		046BC612217715DE00C8D84A /* FSSpeechTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC611217715DE00C8D84A /* FSSpeechTool.m */; };
 		04EC2E062174CC4B00CFE828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2E052174CC4B00CFE828 /* AppDelegate.m */; };
 		04EC2E222174CD4300CFE828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EC2E1F2174CD4300CFE828 /* Assets.xcassets */; };
 		04EC2E302174CE9300CFE828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2E2E2174CE9300CFE828 /* main.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046BC60C2177142E00C8D84A /* FSController01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSController01.h; sourceTree = "<group>"; };
+		046BC60D2177142E00C8D84A /* FSController01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSController01.m; sourceTree = "<group>"; };
+		046BC610217715DE00C8D84A /* FSSpeechTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSpeechTool.h; sourceTree = "<group>"; };
+		046BC611217715DE00C8D84A /* FSSpeechTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSpeechTool.m; sourceTree = "<group>"; };
 		04EC2E012174CC4B00CFE828 /* FSAVFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSAVFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EC2E042174CC4B00CFE828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04EC2E052174CC4B00CFE828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046BC60F217715C300C8D84A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				046BC610217715DE00C8D84A /* FSSpeechTool.h */,
+				046BC611217715DE00C8D84A /* FSSpeechTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		04EC2DF82174CC4B00CFE828 = {
 			isa = PBXGroup;
 			children = (
@@ -75,8 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				04EC2E1B2174CD1E00CFE828 /* Categary */,
-				04EC2E1C2174CD1E00CFE828 /* Libs */,
 				04EC2E1D2174CD1E00CFE828 /* Controllers */,
+				04EC2E1C2174CD1E00CFE828 /* Libs */,
+				046BC60F217715C300C8D84A /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -99,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				04EC2E322174CEFC00CFE828 /* Root */,
+				046BC60C2177142E00C8D84A /* FSController01.h */,
+				046BC60D2177142E00C8D84A /* FSController01.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -203,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046BC612217715DE00C8D84A /* FSSpeechTool.m in Sources */,
 				04EC2E382174CF2800CFE828 /* FSNavigationController.m in Sources */,
+				046BC60E2177142E00C8D84A /* FSController01.m in Sources */,
 				04EC2E302174CE9300CFE828 /* main.m in Sources */,
 				04EC2E352174CF1600CFE828 /* FSBaseViewController.m in Sources */,
 				04EC2E062174CC4B00CFE828 /* AppDelegate.m in Sources */,
@@ -330,7 +350,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = U72R3QQ45L;
+				GCC_PREFIX_HEADER = FSAVFoundation/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/FSAVFoundation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,7 +371,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = FSAVFoundation/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/FSAVFoundation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

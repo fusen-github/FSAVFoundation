@@ -76,10 +76,10 @@
     utterance.pitchMultiplier = 0.8;
     
     /// 设置在播放两句话中间停顿的时间
-    utterance.postUtteranceDelay = 5;
-    
-    
-    utterance.preUtteranceDelay = 3;
+//    utterance.postUtteranceDelay = 5;
+//    
+//    
+//    utterance.preUtteranceDelay = 3;
     
     /// 给语音合成器，设置话语、表达
     [self.speechSynthesizer speakUtterance:utterance];

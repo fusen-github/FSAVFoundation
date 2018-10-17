@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046BC60E2177142E00C8D84A /* FSController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC60D2177142E00C8D84A /* FSController01.m */; };
 		046BC612217715DE00C8D84A /* FSSpeechTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC611217715DE00C8D84A /* FSSpeechTool.m */; };
 		046BC61821772C1B00C8D84A /* jiazhuang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 046BC61521772C1B00C8D84A /* jiazhuang.mp3 */; };
 		046BC61921772C1B00C8D84A /* 爱如潮水.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 046BC61621772C1B00C8D84A /* 爱如潮水.mp3 */; };
-		046BC61A21772C1B00C8D84A /* 一百万个可能.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 046BC61721772C1B00C8D84A /* 一百万个可能.mp3 */; };
+		046BC61A21772C1B00C8D84A /* yibaiwanzhongkeneng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 046BC61721772C1B00C8D84A /* yibaiwanzhongkeneng.mp3 */; };
 		046BC61D2177377700C8D84A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC61C2177377700C8D84A /* UIView+Frame.m */; };
+		046BC621217778A500C8D84A /* FSController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC620217778A500C8D84A /* FSController01.m */; };
+		046BC624217778DD00C8D84A /* FSLableSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC623217778DD00C8D84A /* FSLableSliderView.m */; };
+		046BC627217780FE00C8D84A /* FSSliderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC626217780FE00C8D84A /* FSSliderItem.m */; };
 		04EC2E062174CC4B00CFE828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2E052174CC4B00CFE828 /* AppDelegate.m */; };
 		04EC2E222174CD4300CFE828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EC2E1F2174CD4300CFE828 /* Assets.xcassets */; };
 		04EC2E302174CE9300CFE828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2E2E2174CE9300CFE828 /* main.m */; };
@@ -23,15 +25,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		046BC60C2177142E00C8D84A /* FSController01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSController01.h; sourceTree = "<group>"; };
-		046BC60D2177142E00C8D84A /* FSController01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSController01.m; sourceTree = "<group>"; };
 		046BC610217715DE00C8D84A /* FSSpeechTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSpeechTool.h; sourceTree = "<group>"; };
 		046BC611217715DE00C8D84A /* FSSpeechTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSpeechTool.m; sourceTree = "<group>"; };
 		046BC61521772C1B00C8D84A /* jiazhuang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jiazhuang.mp3; sourceTree = "<group>"; };
 		046BC61621772C1B00C8D84A /* 爱如潮水.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爱如潮水.mp3"; sourceTree = "<group>"; };
-		046BC61721772C1B00C8D84A /* 一百万个可能.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一百万个可能.mp3"; sourceTree = "<group>"; };
+		046BC61721772C1B00C8D84A /* yibaiwanzhongkeneng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yibaiwanzhongkeneng.mp3; sourceTree = "<group>"; };
 		046BC61B2177377700C8D84A /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		046BC61C2177377700C8D84A /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		046BC61F217778A500C8D84A /* FSController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSController01.h; sourceTree = "<group>"; };
+		046BC620217778A500C8D84A /* FSController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSController01.m; sourceTree = "<group>"; };
+		046BC622217778DD00C8D84A /* FSLableSliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSLableSliderView.h; sourceTree = "<group>"; };
+		046BC623217778DD00C8D84A /* FSLableSliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLableSliderView.m; sourceTree = "<group>"; };
+		046BC625217780FE00C8D84A /* FSSliderItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSliderItem.h; sourceTree = "<group>"; };
+		046BC626217780FE00C8D84A /* FSSliderItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSliderItem.m; sourceTree = "<group>"; };
 		04EC2E012174CC4B00CFE828 /* FSAVFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSAVFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EC2E042174CC4B00CFE828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04EC2E052174CC4B00CFE828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,9 +86,22 @@
 			children = (
 				046BC61521772C1B00C8D84A /* jiazhuang.mp3 */,
 				046BC61621772C1B00C8D84A /* 爱如潮水.mp3 */,
-				046BC61721772C1B00C8D84A /* 一百万个可能.mp3 */,
+				046BC61721772C1B00C8D84A /* yibaiwanzhongkeneng.mp3 */,
 			);
 			path = mp3;
+			sourceTree = "<group>";
+		};
+		046BC61E2177786E00C8D84A /* Controller01 */ = {
+			isa = PBXGroup;
+			children = (
+				046BC61F217778A500C8D84A /* FSController01.h */,
+				046BC620217778A500C8D84A /* FSController01.m */,
+				046BC625217780FE00C8D84A /* FSSliderItem.h */,
+				046BC626217780FE00C8D84A /* FSSliderItem.m */,
+				046BC622217778DD00C8D84A /* FSLableSliderView.h */,
+				046BC623217778DD00C8D84A /* FSLableSliderView.m */,
+			);
+			path = Controller01;
 			sourceTree = "<group>";
 		};
 		04EC2DF82174CC4B00CFE828 = {
@@ -144,9 +163,8 @@
 		04EC2E1D2174CD1E00CFE828 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				046BC61E2177786E00C8D84A /* Controller01 */,
 				04EC2E322174CEFC00CFE828 /* Root */,
-				046BC60C2177142E00C8D84A /* FSController01.h */,
-				046BC60D2177142E00C8D84A /* FSController01.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -240,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EC2E312174CE9300CFE828 /* Info.plist in Resources */,
-				046BC61A21772C1B00C8D84A /* 一百万个可能.mp3 in Resources */,
+				046BC61A21772C1B00C8D84A /* yibaiwanzhongkeneng.mp3 in Resources */,
 				04EC2E222174CD4300CFE828 /* Assets.xcassets in Resources */,
 				046BC61821772C1B00C8D84A /* jiazhuang.mp3 in Resources */,
 				046BC61921772C1B00C8D84A /* 爱如潮水.mp3 in Resources */,
@@ -254,11 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046BC624217778DD00C8D84A /* FSLableSliderView.m in Sources */,
 				046BC61D2177377700C8D84A /* UIView+Frame.m in Sources */,
+				046BC621217778A500C8D84A /* FSController01.m in Sources */,
 				046BC612217715DE00C8D84A /* FSSpeechTool.m in Sources */,
 				04EC2E382174CF2800CFE828 /* FSNavigationController.m in Sources */,
-				046BC60E2177142E00C8D84A /* FSController01.m in Sources */,
 				04EC2E302174CE9300CFE828 /* main.m in Sources */,
+				046BC627217780FE00C8D84A /* FSSliderItem.m in Sources */,
 				04EC2E352174CF1600CFE828 /* FSBaseViewController.m in Sources */,
 				04EC2E062174CC4B00CFE828 /* AppDelegate.m in Sources */,
 				04EC2E3E2174CFBB00CFE828 /* FSMainViewController.m in Sources */,
@@ -382,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = U72R3QQ45L;
 				GCC_PREFIX_HEADER = FSAVFoundation/Other/PrefixHeader.pch;
@@ -403,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = FSAVFoundation/Other/PrefixHeader.pch;
@@ -414,6 +436,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.FSAVFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

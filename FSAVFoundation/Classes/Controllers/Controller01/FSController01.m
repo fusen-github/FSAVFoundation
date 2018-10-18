@@ -125,6 +125,8 @@ static NSString * const kProgressId = @"progress";
     
     player.enableRate = YES;
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleRouteChanged:) name:AVAudioSessionRouteChangeNotification object:nil];
+    
     /*
      立体声.
      */
@@ -137,7 +139,7 @@ static NSString * const kProgressId = @"progress";
     
     //    player.enableRate
     
-    player.numberOfLoops = -1;
+//    player.numberOfLoops = -1;
     
     self.player = player;
     
@@ -300,6 +302,40 @@ static NSString * const kProgressId = @"progress";
     }
 }
 
+/*
+ {
+ AVAudioSessionRouteChangePreviousRouteKey = "<AVAudioSessionRouteDescription: 0x1c001a1c0, \ninputs = (\n    \"<AVAudioSessionPortDescription: 0x1c0018ce0, type = MicrophoneBuiltIn; name = iPhone \\U9ea6\\U514b\\U98ce; UID = Built-In Microphone; selectedDataSource = \\U524d>\"\n); \noutputs = (\n    \"<AVAudioSessionPortDescription: 0x1c0019d20, type = Speaker; name = \\U626c\\U58f0\\U5668; UID = Speaker; selectedDataSource = (null)>\"\n)>";
+ AVAudioSessionRouteChangeReasonKey = 1;
+ }
+ */
+
+- (void)handleRouteChanged:(NSNotification *)noti
+{
+    NSDictionary *info = noti.userInfo;
+    
+    AVAudioSessionRouteChangeReason reason = [[info objectForKey:AVAudioSessionRouteChangeReasonKey] unsignedIntegerValue];
+    
+    if (reason == AVAudioSessionRouteChangeReasonOldDeviceUnavailable)
+    {
+        NSLog(@"拔出耳机时暂停播放");
+        
+        AVAudioSessionRouteDescription *routeDesc = [info objectForKey:AVAudioSessionRouteChangePreviousRouteKey];
+        
+        AVAudioSessionPortDescription *portDesc = routeDesc.outputs.firstObject;
+        
+        if ([portDesc.portType isEqualToString:AVAudioSessionPortHeadphones])
+        {
+            [self.player stop];
+        }
+    }
+    else if (reason == AVAudioSessionRouteChangeReasonNewDeviceAvailable)
+    {
+        NSLog(@"插入耳机");
+    }
+    
+    NSLog(@"%@",info);
+}
+
 #pragma mark AVAudioPlayerDelegate
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
@@ -319,6 +355,8 @@ static NSString * const kProgressId = @"progress";
 - (void)audioPlayerBeginInterruption:(AVAudioPlayer *)player
 {
     NSLog(@"%s",__func__);
+    
+    [player pause];
 }
 
 /* audioPlayerEndInterruption:withOptions: is called when the audio session interruption has ended and this player had been interrupted while playing. */
@@ -326,6 +364,15 @@ static NSString * const kProgressId = @"progress";
 - (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withOptions:(NSUInteger)flags
 {
     NSLog(@"%s",__func__);
+    
+    if (flags == AVAudioSessionInterruptionOptionShouldResume)
+    {
+        [player play];
+    }
+    else
+    {
+        NSLog(@"flags = %lu",flags);
+    }
 }
 
 - (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withFlags:(NSUInteger)flags

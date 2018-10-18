@@ -51,6 +51,10 @@ static NSString * const kProgressId = @"progress";
     [session setCategory:AVAudioSessionCategoryPlayback error:&error];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"right" style:UIBarButtonItemStylePlain target:self action:@selector(doRightAction)];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
+    
+//    self.navigationItem.backBarButtonItem
 }
 
 - (void)viewWillLayoutSubviews
@@ -86,6 +90,19 @@ static NSString * const kProgressId = @"progress";
     [self demo02];
 }
 
+- (void)backAction
+{
+    [self.timer invalidate];
+    
+    self.timer = nil;
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)dealloc
+{
+    NSLog(@"%s",__func__);
+}
 
 @end
 
@@ -103,6 +120,8 @@ static NSString * const kProgressId = @"progress";
      在播放音频过程中，音频播放对象player不能被销毁。否则无法正常播放音频
      */
     AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    
+    player.delegate = (id<AVAudioPlayerDelegate>)self;
     
     player.enableRate = YES;
     
@@ -279,6 +298,45 @@ static NSString * const kProgressId = @"progress";
     {
         self.player.currentTime = view.currentValue.floatValue;
     }
+}
+
+#pragma mark AVAudioPlayerDelegate
+
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    NSLog(@"%s",__func__);
+}
+
+/* if an error occurs while decoding it will be reported to the delegate. */
+- (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer *)player error:(NSError *)error
+{
+    NSLog(@"%s",__func__);
+}
+
+/* AVAudioPlayer INTERRUPTION NOTIFICATIONS ARE DEPRECATED - Use AVAudioSession instead. */
+
+/* audioPlayerBeginInterruption: is called when the audio session has been interrupted while the player was playing. The player will have been paused. */
+- (void)audioPlayerBeginInterruption:(AVAudioPlayer *)player
+{
+    NSLog(@"%s",__func__);
+}
+
+/* audioPlayerEndInterruption:withOptions: is called when the audio session interruption has ended and this player had been interrupted while playing. */
+/* Currently the only flag is AVAudioSessionInterruptionFlags_ShouldResume. */
+- (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withOptions:(NSUInteger)flags
+{
+    NSLog(@"%s",__func__);
+}
+
+- (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withFlags:(NSUInteger)flags
+{
+    NSLog(@"%s",__func__);
+}
+
+/* audioPlayerEndInterruption: is called when the preferred method, audioPlayerEndInterruption:withFlags:, is not implemented. */
+- (void)audioPlayerEndInterruption:(AVAudioPlayer *)player
+{
+    NSLog(@"%s",__func__);
 }
 
 @end

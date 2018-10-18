@@ -53,7 +53,6 @@
     
 //    NSLog(@"%@",array);
     
-    
     NSString *language = @"en-US";
     
 //    language = @"zh-CN";

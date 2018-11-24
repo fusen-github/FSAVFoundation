@@ -15,6 +15,31 @@
 		046BC621217778A500C8D84A /* FSController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC620217778A500C8D84A /* FSController01.m */; };
 		046BC624217778DD00C8D84A /* FSLableSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC623217778DD00C8D84A /* FSLableSliderView.m */; };
 		046BC627217780FE00C8D84A /* FSSliderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BC626217780FE00C8D84A /* FSSliderItem.m */; };
+		04AAE039217B03D200CC14CC /* FSController02.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAE038217B03D200CC14CC /* FSController02.m */; };
+		04AAE03F217B093900CC14CC /* FSAudioRecorderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAE03E217B093900CC14CC /* FSAudioRecorderBar.m */; };
+		04AAE042217B0C3200CC14CC /* FSRecorderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAE041217B0C3200CC14CC /* FSRecorderTool.m */; };
+		04B3F49021A6396000AF2457 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B3F48F21A6396000AF2457 /* AVKit.framework */; };
+		04B3F49421A63D3E00AF2457 /* FSController03.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F49321A63D3E00AF2457 /* FSController03.m */; };
+		04B3F49721A68B6500AF2457 /* FSSmartAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F49621A68B6500AF2457 /* FSSmartAlbumController.m */; };
+		04B3F49D21A68C3C00AF2457 /* FSAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F49C21A68C3C00AF2457 /* FSAlbumManager.m */; };
+		04B3F4A021A6906C00AF2457 /* FSAlbumItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F49F21A6906C00AF2457 /* FSAlbumItem.m */; };
+		04B3F4C721A6977700AF2457 /* FSPhotoPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4A221A6977600AF2457 /* FSPhotoPickerManager.m */; };
+		04B3F4C821A6977700AF2457 /* FSPhotoPickerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4A421A6977600AF2457 /* FSPhotoPickerUtil.m */; };
+		04B3F4C921A6977700AF2457 /* FSPhotoPickerConstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4A521A6977600AF2457 /* FSPhotoPickerConstance.m */; };
+		04B3F4CA21A6977700AF2457 /* FSPhotoPickerBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4A821A6977600AF2457 /* FSPhotoPickerBaseController.m */; };
+		04B3F4CB21A6977700AF2457 /* FSPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04B3F4AA21A6977600AF2457 /* FSPhotoPicker.bundle */; };
+		04B3F4CC21A6977700AF2457 /* FSPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4AD21A6977600AF2457 /* FSPhotoPickerController.m */; };
+		04B3F4CD21A6977700AF2457 /* FSAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4B121A6977600AF2457 /* FSAlbumController.m */; };
+		04B3F4CE21A6977700AF2457 /* FSAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4B321A6977600AF2457 /* FSAlbumCell.m */; };
+		04B3F4CF21A6977700AF2457 /* FSAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4B421A6977600AF2457 /* FSAlbumModel.m */; };
+		04B3F4D021A6977700AF2457 /* FSPhotoContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4B921A6977600AF2457 /* FSPhotoContainerView.m */; };
+		04B3F4D121A6977700AF2457 /* FSPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4BA21A6977600AF2457 /* FSPhotoBrowser.m */; };
+		04B3F4D221A6977700AF2457 /* FSPhotoContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4BC21A6977600AF2457 /* FSPhotoContainer.m */; };
+		04B3F4D321A6977700AF2457 /* FSPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4BF21A6977600AF2457 /* FSPhoto.m */; };
+		04B3F4D421A6977700AF2457 /* FSPhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4C121A6977600AF2457 /* FSPhotoViewCell.m */; };
+		04B3F4D521A6977700AF2457 /* FSPhotoGridFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4C521A6977600AF2457 /* FSPhotoGridFlowLayout.m */; };
+		04B3F4D621A6977700AF2457 /* FSPhotoGridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4C621A6977600AF2457 /* FSPhotoGridController.m */; };
+		04B3F4DC21A6A3D800AF2457 /* FSPhotoPickerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F4DB21A6A3D800AF2457 /* FSPhotoPickerConfiguration.m */; };
 		04EC2E062174CC4B00CFE828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2E052174CC4B00CFE828 /* AppDelegate.m */; };
 		04EC2E222174CD4300CFE828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EC2E1F2174CD4300CFE828 /* Assets.xcassets */; };
 		04EC2E302174CE9300CFE828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2E2E2174CE9300CFE828 /* main.m */; };
@@ -22,6 +47,7 @@
 		04EC2E352174CF1600CFE828 /* FSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2E342174CF1600CFE828 /* FSBaseViewController.m */; };
 		04EC2E382174CF2800CFE828 /* FSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2E372174CF2800CFE828 /* FSNavigationController.m */; };
 		04EC2E3E2174CFBB00CFE828 /* FSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2E3D2174CFBB00CFE828 /* FSMainViewController.m */; };
+		04EC455D21A5464500E06CE3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EC455C21A5464500E06CE3 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +64,55 @@
 		046BC623217778DD00C8D84A /* FSLableSliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSLableSliderView.m; sourceTree = "<group>"; };
 		046BC625217780FE00C8D84A /* FSSliderItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSliderItem.h; sourceTree = "<group>"; };
 		046BC626217780FE00C8D84A /* FSSliderItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSliderItem.m; sourceTree = "<group>"; };
+		04AAE037217B03D200CC14CC /* FSController02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSController02.h; sourceTree = "<group>"; };
+		04AAE038217B03D200CC14CC /* FSController02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSController02.m; sourceTree = "<group>"; };
+		04AAE03D217B093900CC14CC /* FSAudioRecorderBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAudioRecorderBar.h; sourceTree = "<group>"; };
+		04AAE03E217B093900CC14CC /* FSAudioRecorderBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAudioRecorderBar.m; sourceTree = "<group>"; };
+		04AAE040217B0C3200CC14CC /* FSRecorderTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSRecorderTool.h; sourceTree = "<group>"; };
+		04AAE041217B0C3200CC14CC /* FSRecorderTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSRecorderTool.m; sourceTree = "<group>"; };
+		04B3F48F21A6396000AF2457 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		04B3F49221A63D3E00AF2457 /* FSController03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSController03.h; sourceTree = "<group>"; };
+		04B3F49321A63D3E00AF2457 /* FSController03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSController03.m; sourceTree = "<group>"; };
+		04B3F49521A68B6500AF2457 /* FSSmartAlbumController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSmartAlbumController.h; sourceTree = "<group>"; };
+		04B3F49621A68B6500AF2457 /* FSSmartAlbumController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSmartAlbumController.m; sourceTree = "<group>"; };
+		04B3F49B21A68C3C00AF2457 /* FSAlbumManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAlbumManager.h; sourceTree = "<group>"; };
+		04B3F49C21A68C3C00AF2457 /* FSAlbumManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAlbumManager.m; sourceTree = "<group>"; };
+		04B3F49E21A6906C00AF2457 /* FSAlbumItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAlbumItem.h; sourceTree = "<group>"; };
+		04B3F49F21A6906C00AF2457 /* FSAlbumItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAlbumItem.m; sourceTree = "<group>"; };
+		04B3F4A221A6977600AF2457 /* FSPhotoPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoPickerManager.m; sourceTree = "<group>"; };
+		04B3F4A421A6977600AF2457 /* FSPhotoPickerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoPickerUtil.m; sourceTree = "<group>"; };
+		04B3F4A521A6977600AF2457 /* FSPhotoPickerConstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoPickerConstance.m; sourceTree = "<group>"; };
+		04B3F4A621A6977600AF2457 /* FSPhotoPickerConstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoPickerConstance.h; sourceTree = "<group>"; };
+		04B3F4A721A6977600AF2457 /* FSPhotoPickerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoPickerUtil.h; sourceTree = "<group>"; };
+		04B3F4A821A6977600AF2457 /* FSPhotoPickerBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoPickerBaseController.m; sourceTree = "<group>"; };
+		04B3F4A921A6977600AF2457 /* FSPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoPickerController.h; sourceTree = "<group>"; };
+		04B3F4AA21A6977600AF2457 /* FSPhotoPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FSPhotoPicker.bundle; sourceTree = "<group>"; };
+		04B3F4AB21A6977600AF2457 /* FSPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoPicker.h; sourceTree = "<group>"; };
+		04B3F4AC21A6977600AF2457 /* FSPhotoPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoPickerManager.h; sourceTree = "<group>"; };
+		04B3F4AD21A6977600AF2457 /* FSPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoPickerController.m; sourceTree = "<group>"; };
+		04B3F4AE21A6977600AF2457 /* FSPhotoPickerBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoPickerBaseController.h; sourceTree = "<group>"; };
+		04B3F4B021A6977600AF2457 /* FSAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAlbumCell.h; sourceTree = "<group>"; };
+		04B3F4B121A6977600AF2457 /* FSAlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAlbumController.m; sourceTree = "<group>"; };
+		04B3F4B221A6977600AF2457 /* FSAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAlbumModel.h; sourceTree = "<group>"; };
+		04B3F4B321A6977600AF2457 /* FSAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAlbumCell.m; sourceTree = "<group>"; };
+		04B3F4B421A6977600AF2457 /* FSAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAlbumModel.m; sourceTree = "<group>"; };
+		04B3F4B521A6977600AF2457 /* FSAlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAlbumController.h; sourceTree = "<group>"; };
+		04B3F4B721A6977600AF2457 /* FSPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhoto.h; sourceTree = "<group>"; };
+		04B3F4B921A6977600AF2457 /* FSPhotoContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoContainerView.m; sourceTree = "<group>"; };
+		04B3F4BA21A6977600AF2457 /* FSPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoBrowser.m; sourceTree = "<group>"; };
+		04B3F4BB21A6977600AF2457 /* FSPhotoContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoContainer.h; sourceTree = "<group>"; };
+		04B3F4BC21A6977600AF2457 /* FSPhotoContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoContainer.m; sourceTree = "<group>"; };
+		04B3F4BD21A6977600AF2457 /* FSPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoBrowser.h; sourceTree = "<group>"; };
+		04B3F4BE21A6977600AF2457 /* FSPhotoContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoContainerView.h; sourceTree = "<group>"; };
+		04B3F4BF21A6977600AF2457 /* FSPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhoto.m; sourceTree = "<group>"; };
+		04B3F4C121A6977600AF2457 /* FSPhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoViewCell.m; sourceTree = "<group>"; };
+		04B3F4C221A6977600AF2457 /* FSPhotoGridController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoGridController.h; sourceTree = "<group>"; };
+		04B3F4C321A6977600AF2457 /* FSPhotoGridFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoGridFlowLayout.h; sourceTree = "<group>"; };
+		04B3F4C421A6977600AF2457 /* FSPhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPhotoViewCell.h; sourceTree = "<group>"; };
+		04B3F4C521A6977600AF2457 /* FSPhotoGridFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoGridFlowLayout.m; sourceTree = "<group>"; };
+		04B3F4C621A6977600AF2457 /* FSPhotoGridController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPhotoGridController.m; sourceTree = "<group>"; };
+		04B3F4DA21A6A3D800AF2457 /* FSPhotoPickerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPhotoPickerConfiguration.h; sourceTree = "<group>"; };
+		04B3F4DB21A6A3D800AF2457 /* FSPhotoPickerConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPhotoPickerConfiguration.m; sourceTree = "<group>"; };
 		04EC2E012174CC4B00CFE828 /* FSAVFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSAVFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EC2E042174CC4B00CFE828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04EC2E052174CC4B00CFE828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +126,7 @@
 		04EC2E372174CF2800CFE828 /* FSNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNavigationController.m; sourceTree = "<group>"; };
 		04EC2E3C2174CFBB00CFE828 /* FSMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMainViewController.h; sourceTree = "<group>"; };
 		04EC2E3D2174CFBB00CFE828 /* FSMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMainViewController.m; sourceTree = "<group>"; };
+		04EC455C21A5464500E06CE3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B3F49021A6396000AF2457 /* AVKit.framework in Frameworks */,
+				04EC455D21A5464500E06CE3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +145,11 @@
 		046BC60F217715C300C8D84A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				04B3F4A121A6977600AF2457 /* FSPhotoPicker */,
+				04B3F49B21A68C3C00AF2457 /* FSAlbumManager.h */,
+				04B3F49C21A68C3C00AF2457 /* FSAlbumManager.m */,
+				04B3F49E21A6906C00AF2457 /* FSAlbumItem.h */,
+				04B3F49F21A6906C00AF2457 /* FSAlbumItem.m */,
 				046BC610217715DE00C8D84A /* FSSpeechTool.h */,
 				046BC611217715DE00C8D84A /* FSSpeechTool.m */,
 			);
@@ -104,11 +187,117 @@
 			path = Controller01;
 			sourceTree = "<group>";
 		};
+		04AAE036217B03AC00CC14CC /* Controller02 */ = {
+			isa = PBXGroup;
+			children = (
+				04AAE037217B03D200CC14CC /* FSController02.h */,
+				04AAE038217B03D200CC14CC /* FSController02.m */,
+				04AAE03D217B093900CC14CC /* FSAudioRecorderBar.h */,
+				04AAE03E217B093900CC14CC /* FSAudioRecorderBar.m */,
+				04AAE040217B0C3200CC14CC /* FSRecorderTool.h */,
+				04AAE041217B0C3200CC14CC /* FSRecorderTool.m */,
+			);
+			path = Controller02;
+			sourceTree = "<group>";
+		};
+		04B3F49121A63D2500AF2457 /* Controller03 */ = {
+			isa = PBXGroup;
+			children = (
+				04B3F49221A63D3E00AF2457 /* FSController03.h */,
+				04B3F49321A63D3E00AF2457 /* FSController03.m */,
+				04B3F49521A68B6500AF2457 /* FSSmartAlbumController.h */,
+				04B3F49621A68B6500AF2457 /* FSSmartAlbumController.m */,
+			);
+			path = Controller03;
+			sourceTree = "<group>";
+		};
+		04B3F4A121A6977600AF2457 /* FSPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				04B3F4AF21A6977600AF2457 /* Album */,
+				04B3F4AA21A6977600AF2457 /* FSPhotoPicker.bundle */,
+				04B3F4AB21A6977600AF2457 /* FSPhotoPicker.h */,
+				04B3F4AE21A6977600AF2457 /* FSPhotoPickerBaseController.h */,
+				04B3F4A821A6977600AF2457 /* FSPhotoPickerBaseController.m */,
+				04B3F4A921A6977600AF2457 /* FSPhotoPickerController.h */,
+				04B3F4AD21A6977600AF2457 /* FSPhotoPickerController.m */,
+				04B3F4AC21A6977600AF2457 /* FSPhotoPickerManager.h */,
+				04B3F4A221A6977600AF2457 /* FSPhotoPickerManager.m */,
+				04B3F4DA21A6A3D800AF2457 /* FSPhotoPickerConfiguration.h */,
+				04B3F4DB21A6A3D800AF2457 /* FSPhotoPickerConfiguration.m */,
+				04B3F4B621A6977600AF2457 /* Photo */,
+				04B3F4A321A6977600AF2457 /* Util */,
+			);
+			path = FSPhotoPicker;
+			sourceTree = "<group>";
+		};
+		04B3F4A321A6977600AF2457 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				04B3F4A621A6977600AF2457 /* FSPhotoPickerConstance.h */,
+				04B3F4A521A6977600AF2457 /* FSPhotoPickerConstance.m */,
+				04B3F4A721A6977600AF2457 /* FSPhotoPickerUtil.h */,
+				04B3F4A421A6977600AF2457 /* FSPhotoPickerUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		04B3F4AF21A6977600AF2457 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				04B3F4B021A6977600AF2457 /* FSAlbumCell.h */,
+				04B3F4B321A6977600AF2457 /* FSAlbumCell.m */,
+				04B3F4B521A6977600AF2457 /* FSAlbumController.h */,
+				04B3F4B121A6977600AF2457 /* FSAlbumController.m */,
+				04B3F4B221A6977600AF2457 /* FSAlbumModel.h */,
+				04B3F4B421A6977600AF2457 /* FSAlbumModel.m */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		04B3F4B621A6977600AF2457 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				04B3F4B821A6977600AF2457 /* Browser */,
+				04B3F4B721A6977600AF2457 /* FSPhoto.h */,
+				04B3F4BF21A6977600AF2457 /* FSPhoto.m */,
+				04B3F4C021A6977600AF2457 /* Grid */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		04B3F4B821A6977600AF2457 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				04B3F4BD21A6977600AF2457 /* FSPhotoBrowser.h */,
+				04B3F4BA21A6977600AF2457 /* FSPhotoBrowser.m */,
+				04B3F4BB21A6977600AF2457 /* FSPhotoContainer.h */,
+				04B3F4BC21A6977600AF2457 /* FSPhotoContainer.m */,
+				04B3F4BE21A6977600AF2457 /* FSPhotoContainerView.h */,
+				04B3F4B921A6977600AF2457 /* FSPhotoContainerView.m */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		04B3F4C021A6977600AF2457 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				04B3F4C221A6977600AF2457 /* FSPhotoGridController.h */,
+				04B3F4C621A6977600AF2457 /* FSPhotoGridController.m */,
+				04B3F4C321A6977600AF2457 /* FSPhotoGridFlowLayout.h */,
+				04B3F4C521A6977600AF2457 /* FSPhotoGridFlowLayout.m */,
+				04B3F4C421A6977600AF2457 /* FSPhotoViewCell.h */,
+				04B3F4C121A6977600AF2457 /* FSPhotoViewCell.m */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
 		04EC2DF82174CC4B00CFE828 = {
 			isa = PBXGroup;
 			children = (
 				04EC2E032174CC4B00CFE828 /* FSAVFoundation */,
 				04EC2E022174CC4B00CFE828 /* Products */,
+				04EC455B21A5464400E06CE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,8 +352,10 @@
 		04EC2E1D2174CD1E00CFE828 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				04EC2E322174CEFC00CFE828 /* Base */,
 				046BC61E2177786E00C8D84A /* Controller01 */,
-				04EC2E322174CEFC00CFE828 /* Root */,
+				04AAE036217B03AC00CC14CC /* Controller02 */,
+				04B3F49121A63D2500AF2457 /* Controller03 */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -187,7 +378,7 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
-		04EC2E322174CEFC00CFE828 /* Root */ = {
+		04EC2E322174CEFC00CFE828 /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				04EC2E332174CF1600CFE828 /* FSBaseViewController.h */,
@@ -197,7 +388,16 @@
 				04EC2E3C2174CFBB00CFE828 /* FSMainViewController.h */,
 				04EC2E3D2174CFBB00CFE828 /* FSMainViewController.m */,
 			);
-			path = Root;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04EC455B21A5464400E06CE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B3F48F21A6396000AF2457 /* AVKit.framework */,
+				04EC455C21A5464500E06CE3 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +462,7 @@
 				04EC2E222174CD4300CFE828 /* Assets.xcassets in Resources */,
 				046BC61821772C1B00C8D84A /* jiazhuang.mp3 in Resources */,
 				046BC61921772C1B00C8D84A /* 爱如潮水.mp3 in Resources */,
+				04B3F4CB21A6977700AF2457 /* FSPhotoPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,16 +473,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B3F4CE21A6977700AF2457 /* FSAlbumCell.m in Sources */,
+				04B3F4D021A6977700AF2457 /* FSPhotoContainerView.m in Sources */,
+				04B3F4D121A6977700AF2457 /* FSPhotoBrowser.m in Sources */,
 				046BC624217778DD00C8D84A /* FSLableSliderView.m in Sources */,
+				04AAE042217B0C3200CC14CC /* FSRecorderTool.m in Sources */,
 				046BC61D2177377700C8D84A /* UIView+Frame.m in Sources */,
 				046BC621217778A500C8D84A /* FSController01.m in Sources */,
+				04B3F49D21A68C3C00AF2457 /* FSAlbumManager.m in Sources */,
 				046BC612217715DE00C8D84A /* FSSpeechTool.m in Sources */,
+				04AAE03F217B093900CC14CC /* FSAudioRecorderBar.m in Sources */,
+				04B3F49721A68B6500AF2457 /* FSSmartAlbumController.m in Sources */,
+				04B3F4C721A6977700AF2457 /* FSPhotoPickerManager.m in Sources */,
+				04AAE039217B03D200CC14CC /* FSController02.m in Sources */,
+				04B3F4DC21A6A3D800AF2457 /* FSPhotoPickerConfiguration.m in Sources */,
+				04B3F4D321A6977700AF2457 /* FSPhoto.m in Sources */,
+				04B3F4CA21A6977700AF2457 /* FSPhotoPickerBaseController.m in Sources */,
 				04EC2E382174CF2800CFE828 /* FSNavigationController.m in Sources */,
+				04B3F4CD21A6977700AF2457 /* FSAlbumController.m in Sources */,
+				04B3F4D521A6977700AF2457 /* FSPhotoGridFlowLayout.m in Sources */,
+				04B3F4C921A6977700AF2457 /* FSPhotoPickerConstance.m in Sources */,
 				04EC2E302174CE9300CFE828 /* main.m in Sources */,
+				04B3F4D421A6977700AF2457 /* FSPhotoViewCell.m in Sources */,
+				04B3F4A021A6906C00AF2457 /* FSAlbumItem.m in Sources */,
+				04B3F49421A63D3E00AF2457 /* FSController03.m in Sources */,
 				046BC627217780FE00C8D84A /* FSSliderItem.m in Sources */,
+				04B3F4D621A6977700AF2457 /* FSPhotoGridController.m in Sources */,
+				04B3F4CF21A6977700AF2457 /* FSAlbumModel.m in Sources */,
 				04EC2E352174CF1600CFE828 /* FSBaseViewController.m in Sources */,
+				04B3F4C821A6977700AF2457 /* FSPhotoPickerUtil.m in Sources */,
+				04B3F4D221A6977700AF2457 /* FSPhotoContainer.m in Sources */,
 				04EC2E062174CC4B00CFE828 /* AppDelegate.m in Sources */,
 				04EC2E3E2174CFBB00CFE828 /* FSMainViewController.m in Sources */,
+				04B3F4CC21A6977700AF2457 /* FSPhotoPickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +631,7 @@
 				DEVELOPMENT_TEAM = U72R3QQ45L;
 				GCC_PREFIX_HEADER = FSAVFoundation/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/FSAVFoundation/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,7 +653,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = FSAVFoundation/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/FSAVFoundation/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

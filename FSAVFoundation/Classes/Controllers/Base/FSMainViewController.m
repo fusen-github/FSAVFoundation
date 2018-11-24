@@ -37,7 +37,9 @@ static NSString * const kControllerKey = @"controller";
     
     [self.view addSubview:tableView];
     
-    self.dataArray = @[@{kTitleKey:@"语音合成器",kControllerKey:@"FSController01"},];
+    self.dataArray = @[@{kTitleKey:@"音频播放",kControllerKey:@"FSController01"},
+                       @{kTitleKey:@"音频录制",kControllerKey:@"FSController02"},
+                       @{kTitleKey:@"获取系统相册",kControllerKey:@"FSController03"},];
     
     
 }
